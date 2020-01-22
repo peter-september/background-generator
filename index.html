@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+	<title>HTML Lesson</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<meta charset="utf-8" name="Description" content="this is part of SEO search" >
+	<meta name="Keyword" content="homepage,learning">
+	<meta name="author" content="peter september">
+</head>
+<body>
+	<h1>
+		First leveling heading
+	</h1>
+	<p>this is the first paragraph</p>
+	<p>this is the second paragraph</p>
+	<!--order list are numbers-->
+	<ol type="1" start="4"><!--type was styling without css-->
+		<li>cup</li>
+		<li>tea</li>
+		<li>milk</li>
+		<li>sugar</li>
+	</ol>
+	<!--unordered list are bullet points-->
+	<ul>
+		<li>cup<!-- nested lists-->
+			<ul>
+				<li>cup</li>
+				<li>hot water</li>
+			</ul>
+		</li>
+		<li>coffee</li>
+		<li>sugar</li>
+		<li>milk</li>
+	</ul>
+	<table border = "1"><!--creating a table-->
+		<thead><!--the top row of the table-->
+			<tr>
+				<th>s.no</th>
+				<th>s.name</th>
+				<th>subjects</th>
+				<th>remarks</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>John</td>
+				<td>
+					<table border = "1">
+						<tr><!--table within a cell-->
+							<td>English</td>
+							<td>Chemistry</td>
+							<td>Maths</td>
+							<td>Bio</td>
+						</tr>
+					</table>
+				</td>
+				<td>done very well</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Mark</td>
+				<td>
+					<table border="1"><!--adding a border around each value-->
+						<tr>
+							<td>maths</td>
+							<td>English</td>
+							<td>GEO</td>
+						</tr>
+					</table>
+				</td>
+				<td>Try harder</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<a href="about.html">Click here</a> to go to the about page</a><!--this is a link refernce--><br><br>
+	<a href="sub-folder/sub-index.html">Click here</a> to go to the sub page</a><!--adding a sub directory--><br><br>
+	<a href="https://www.takealot.com">Click here</a> to go to Takealot.com</a><br><br>
+
+	<form><!--creating a form with HTML-->
+		<input type="text" placeholder="enter name here" name="insert here">
+		<input type="password" placeholder="Enter password here" name="">
+		<input type="email" placeholder="enter email">
+		<input type="radio" name="gender" value="male">:Male <input type="radio" name="gender" value="female">:Female
+		<input type="checkbox" > I like getting down
+		<select><!-- adding a dropdown-->
+			<option>Choose a country</option>
+			<option value="America">USA</option><!--value is what is sent to server-->
+			<option>SA</option>
+			<option>UK</option>
+		</select>
+		<input type="submit" value="Click to submit form">
+		<button>A button</button> <!--creating a button-->
+		<input list="countries">
+		<datalist id="countries"><!---creates a dropdown search-->
+			<option>Choose a country</option>
+			<option value="America">USA</option><!--value is what is sent to server-->
+			<option value="south africa">SA</option>
+			<option value="Britian">UK</option>
+		</datalist>
+		<input type="number" name=""><!--only use numbers-->
+		<input type="date" name="">
+	</form><br><br>
+
+	<img src="img/pink.jpg" width="100px" height="100px" title="unicorn" alt="The image is missing"><!--embed images-->
+
+	<br><br>
+
+	<iframe src="https://www.bing.com" width="400px" height="400px"></iframe><!--iframe adds a small window to view the external site-->
+	<iframe src="https://www.takealot.com" width="400px" height="400px"></iframe>
+	<br><br>
+
+	<p style="color:red;background-color: blue">this is a paragraph</p>
+</body>
+</html>
